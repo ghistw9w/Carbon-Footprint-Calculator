@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Carbon Footprint Calculator</title>
+    <!-- Bootstrap 5 CSS CDN -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS (Optional if you want separate styling) -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-light">
+
+    <div class="container-fluid py-5">
+        <div class="container bg-white p-5 rounded shadow-sm">
+            
+            <!-- Header Section -->
+            <div class="row text-center mb-4">
+                <div class="col-12">
+                    <h1 class="display-4 fw-bold text-success">Carbon Footprint Calculator</h1>
+                    <h2 class="h4 text-secondary fst-italic">Climate change is real!!</h2>
+                </div>
+            </div>
+
+            <!-- Content Section -->
+            <div class="row align-items-center my-4">
+                <!-- Introduction Text & Image Column -->
+                <div class="col-lg-6 mb-4 mb-lg-0">
+                    <p class="lead text-muted">
+                        Every day choices—from the food we eat to the energy we use at home—leave a mark on our planet. Understanding your carbon footprint is the first step toward building a more sustainable future and protecting our environment for generations to come.
+                    </p>
+                </div>
+                <div class="col-lg-6 text-center">
+                    <!-- Replace with your local image file name if needed -->
+                    <img src="https://images.unsplash.com/photo-1542601906990-b4d3fb778b09?auto=format&fit=crop&w=600&q=80" 
+                         alt="Environmental Sustainability" 
+                         class="img-fluid rounded shadow">
+                </div>
+            </div>
+
+            <!-- Call to Action Section -->
+            <div class="row text-center mt-5">
+                <div class="col-12">
+                    <h4 class="fw-semibold mb-3">Ready to assess your personal carbon footprint?</h4>
+                    <p class="text-secondary mb-4">Take a quick questionnaire to discover your impact and learn how you can reduce it.</p>
+                    <!-- Blue Calculate Button using an <a> tag -->
+                    <a href="#" class="btn btn-primary btn-lg px-5 py-3 shadow">Calculate</a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <!-- Bootstrap 5 JS Bundle CDN -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
